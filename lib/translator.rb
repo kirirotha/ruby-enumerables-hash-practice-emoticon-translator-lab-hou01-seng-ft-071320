@@ -21,16 +21,16 @@ end
 
 def get_japanese_emoticon(file_in, eng_emote)
   emoticons_sort = load_library(file_in)
-  english_meaning = ""
+  japanese_translation = ""
     emoticons_sort.each do |key1, value1|
-      if value1[:japanese] == jap_emote
-        english_meaning = key1
+      if value1[:english] == eng_emote
+        japanese_translation = value1[:japanese]
       end
     end
-  if english_meaning == ""
-    english_meaning = "Sorry, that emoticon was not found"
+  if japanese_translation == ""
+    japanese_translation = "Sorry, that emoticon was not found"
   end
-  english_meaning
+  japanese_translation
 end
 
 def get_english_meaning(file_in, jap_emote)
