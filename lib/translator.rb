@@ -30,7 +30,7 @@ def get_english_meaning(file_in, jap_emote)
       #puts key1
       #puts value1[:japanese]
       if value1[:japanese] = jap_emote
-        english_trans = value1[:english]
+        puts value1[:english]
       end
     end
   
