@@ -9,7 +9,7 @@ def load_library
     if !emoticons_sort[emotions]
       emoticons_sort[emotions] = {}
     end
-    #emoiticons_sort[emotions][:english] =  emoticons[emotions][0]
+    emoiticons_sort[emotions][:english] =  emoticons[emotions][0]
   end
   puts emoticons_sort
 end
