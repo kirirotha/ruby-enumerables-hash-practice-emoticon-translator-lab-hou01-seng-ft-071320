@@ -28,13 +28,13 @@ def get_english_meaning(file_in, jap_emote)
   # code goes here
     emoticons_sort.each do |key1, value1|
       #puts key1
-      puts value1[:japanese]
-      if value1[:japanese]
+      #puts value1[:japanese]
+      if value1[:japanese] = jap_emote
         english_trans = value1[:english]
       end
     end
   
-  #puts english_trans
+  puts english_trans
   #english_trans
 end
 
