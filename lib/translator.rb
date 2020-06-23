@@ -30,7 +30,7 @@ def get_english_meaning(file_in, jap_emote)
       #puts key1
       
       value1.each do |key2, value2|
-        puts key2[1]
+        puts value1[:japanese]
         
       end
     #puts emoticons[emotions][0]
