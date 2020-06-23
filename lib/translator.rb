@@ -30,6 +30,8 @@ def get_english_meaning(file_in, jap_emote)
         english_meaning = key1
       end
     end
+  if english_meaning == ""
+    puts "So"
   
   puts english_meaning
   english_meaning
