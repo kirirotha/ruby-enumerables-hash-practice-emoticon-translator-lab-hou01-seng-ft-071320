@@ -34,6 +34,6 @@ def get_english_meaning(file_in, jap_emote)
     end
     
   end
-  english_trans
+  puts english_trans
 end
 
