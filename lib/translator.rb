@@ -35,4 +35,3 @@ def get_english_meaning(file_in, jap_emote)
   english_trans
 end
 
-get_english_meaning(file_in, ee)
