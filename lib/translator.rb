@@ -4,8 +4,8 @@ def load_library
   emoticons = YAML.load_file('lib/emoticons.yml')
   emoticons_sort = {}
   emoticons.each do |emotions, emote|
-    puts emoticons[emotions][0]
-    puts emoticons[emotions][1]
+    #puts emoticons[emotions][0]
+    #puts emoticons[emotions][1]
     if !emoticons_sort[emotions]
       emoticons_sort[emotions] = {}
     end
