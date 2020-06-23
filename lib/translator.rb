@@ -31,12 +31,12 @@ def get_english_meaning(file_in, jap_emote)
       #puts value1[:japanese]
       #puts jap_emote
       if value1[:japanese] == jap_emote
-        puts value1[:english]
+        english_trans = value1[:english]
       end
     end
   
-  #puts english_trans
-  #english_trans
+  puts english_trans
+  english_trans
 end
 
 get_english_meaning(file_in, ee)
