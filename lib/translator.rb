@@ -25,12 +25,7 @@ end
 def get_english_meaning(file_in, jap_emote)
   emoticons_sort = load_library(file_in)
   english_trans = ""
-  #puts emoticons_sort
-  # code goes here
     emoticons_sort.each do |key1, value1|
-      #puts key1
-      #puts value1[:japanese]
-      #puts jap_emote
       if value1[:japanese] == jap_emote
         english_trans = value1[:english]
       end
