@@ -12,7 +12,8 @@ def load_library
     emoticons_sort[emotions][:english] =  emoticons[emotions][0]
     emoticons_sort[emotions][:japanese] = emoticons[emotions][1]
   end
-  puts emoticons_sort
+  #puts emoticons_sort
+  emoticons_sort
 end
 
 def get_japanese_emoticon
