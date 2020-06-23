@@ -29,7 +29,8 @@ def get_english_meaning(file_in, jap_emote)
     emoticons_sort.each do |key1, value1|
       #puts key1
       value1.each do |key2, value2|
-        puts value2
+        puts value2[0]
+        
       end
     #puts emoticons[emotions][0]
     #puts emoticons[emotions][1]
