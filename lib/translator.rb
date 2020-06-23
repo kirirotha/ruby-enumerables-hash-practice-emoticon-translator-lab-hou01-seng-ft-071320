@@ -26,7 +26,7 @@ def get_english_meaning(file_in, jap_emote)
   emoticons_sort = load_library(file_in)
   puts emoticons_sort
   # code goes here
-  
+    emoticons_sort.each do |emote|
   
     #puts emoticons[emotions][0]
     #puts emoticons[emotions][1]
