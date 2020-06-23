@@ -13,7 +13,7 @@ def load_library(file_in)
     emoticons_sort[emotions][:english] =  emoticons[emotions][0]
     emoticons_sort[emotions][:japanese] = emoticons[emotions][1]
   end
-  puts emoticons_sort
+  #puts emoticons_sort
   emoticons_sort
 end
 
@@ -21,7 +21,8 @@ def get_japanese_emoticon
   # code goes here
 end
 
-def get_english_meaning
+def get_english_meaning(file_in, jap_emote)
+  
   # code goes here
 end
 
