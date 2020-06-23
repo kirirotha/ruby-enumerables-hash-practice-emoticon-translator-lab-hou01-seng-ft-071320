@@ -31,10 +31,7 @@ def get_english_meaning(file_in, jap_emote)
       end
     end
   if english_meaning == ""
-    puts "Sorry that emoticon was not found"
-  else
-  puts english_meaning
-  english_meaning
+    english_meaning = "Sorry that emoticon was not found"
   end
 end
 
