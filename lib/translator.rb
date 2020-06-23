@@ -2,8 +2,8 @@
 require "yaml"
 file = "lib/emoticons.yml"
 def load_library
-  emoticons = YAML.load_file("lib/emoticons.yml")
-  emoticons_sort = {}
+  emoticons = YAML.load_file(")
+  emoticons_sort = {}lib/emoticons.yml"
   emoticons.each do |emotions, emote|
     #puts emoticons[emotions][0]
     #puts emoticons[emotions][1]
