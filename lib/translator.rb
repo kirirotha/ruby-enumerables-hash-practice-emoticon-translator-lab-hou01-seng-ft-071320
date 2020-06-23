@@ -1,7 +1,7 @@
 # require modules here
 require "yaml"
 file_in = ".lib/emoticons.yml"
-ee = ""
+ee = "(#^.^#)"
 def load_library(file_in)
   emoticons = YAML.load_file(file_in)
   emoticons_sort = {}
@@ -22,7 +22,7 @@ def get_japanese_emoticon
   # code goes here
 end
 
-def get_english_meaning(file_in, jap_emote)
+def get_english_meaning(file_in, ee)
   load_library
   # code goes here
   
