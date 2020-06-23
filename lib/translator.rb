@@ -22,7 +22,7 @@ def get_japanese_emoticon
   # code goes here
 end
 
-def get_english_meaning(file_in, ee)
+def get_english_meaning(file_in, jap_emote)
   load_library
   # code goes here
   
@@ -39,4 +39,4 @@ def get_english_meaning(file_in, ee)
   english_trans
 end
 
-get_english_meaning
+get_english_meaning(file_in, ee)
