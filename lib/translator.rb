@@ -27,14 +27,13 @@ def get_english_meaning(file_in, jap_emote)
   # code goes here
   
   
-  emoticons.each do |emotions, emote|
     #puts emoticons[emotions][0]
     #puts emoticons[emotions][1]
     if emoticons_sort[emotions][1] == jap_emote
       english_trans = emoticons_sort[emotions][0]
     end
     
-  end
+  
   puts english_trans
   english_trans
 end
