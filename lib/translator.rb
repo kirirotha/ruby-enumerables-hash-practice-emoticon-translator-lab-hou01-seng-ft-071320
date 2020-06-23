@@ -22,10 +22,10 @@ def get_japanese_emoticon
 end
 
 def get_english_meaning(file_in, jap_emote)
-  
+  load_library
   # code goes here
-  emoticons = YAML.load_file(file_in)
-  emoticons_sort = {}
+  
+  
   emoticons.each do |emotions, emote|
     #puts emoticons[emotions][0]
     #puts emoticons[emotions][1]
