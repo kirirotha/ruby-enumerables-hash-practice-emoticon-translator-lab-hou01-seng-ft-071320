@@ -30,11 +30,10 @@ def get_english_meaning(file_in, jap_emote)
     #puts emoticons[emotions][0]
     #puts emoticons[emotions][1]
     if emoticons_sort[emotions][1] == jap_emote
-      emoticons_sort[emotions] = {}
+      english_trans = emoticons_sort[emotions][0]
     end
-    emoticons_sort[emotions][:english] =  emoticons[emotions][0]
-    emoticons_sort[emotions][:japanese] = emoticons[emotions][1]
+    
   end
-  
+  english_trans
 end
 
