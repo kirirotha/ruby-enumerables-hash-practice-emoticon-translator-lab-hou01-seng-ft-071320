@@ -24,6 +24,7 @@ end
 
 def get_english_meaning(file_in, jap_emote)
   emoticons_sort = load_library(file_in)
+  puts emoticons_sort
   # code goes here
   
   
@@ -34,8 +35,8 @@ def get_english_meaning(file_in, jap_emote)
     #end
     
   
-  puts english_trans
-  english_trans
+  #puts english_trans
+  #english_trans
 end
 
 get_english_meaning(file_in, ee)
